@@ -11,4 +11,4 @@ I would like to see a list of bookmarks
 ```
 ## Domain Model
 
-![Bookmark Manager domain model](./bookmark/bookmark_manager_1.png)
+![Bookmark Manager domain model](./bookmark_manager_1.png)
