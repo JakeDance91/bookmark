@@ -1,3 +1,13 @@
+require_relative 'setup_test_database.rb'
+
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
+
 # at the top of spec/spec_helper.rb
 
 # Set the environment to "test"
